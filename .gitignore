@@ -1,4 +1,21 @@
-# Byte-compiled / optimized / DLL files
+# Instrucciones del repositorio
+
+- **Proyecto:** App de Diseño Experimental en Python y Streamlit para el curso de Diseño Experimental, Ingeniería Agrícola, Universidad de Sucre.
+- **Estructura:**
+  - `app.py`: portada.
+  - `pages/`: un archivo por diseño experimental.
+  - `utils/`: funciones reutilizables; debe incluir `__init__.py`.
+  - `data/`: archivos CSV de ejemplo.
+  - `verificacion/`: scripts de R.
+- Escribe todo el código, comentarios, docstrings y mensajes de la interfaz en español.
+- Añade en cada paso estadístico un comentario que explique qué se calcula y por qué, con un enfoque adecuado para estudiantes de Ingeniería Agrícola.
+- Las funciones deben incluir type hints y docstrings con estilo Google.
+- Usa únicamente estas librerías: `streamlit`, `pandas`, `numpy`, `scipy`, `statsmodels`, `plotly` y `openpyxl`. Antes de agregar otra, solicita permiso.
+- Ajusta los ANOVA con `statsmodels.formula.api.ols` y `statsmodels.stats.anova.anova_lm(typ=2)`.
+- Realiza las pruebas de Tukey con `statsmodels.stats.multicomp.pairwise_tukeyhsd`.
+- No inventes resultados: todos los números deben provenir del cálculo.
+- Antes de terminar una tarea, ejecuta el código y corrige los errores que aparezcan.
+- No modifiques archivos distintos de los necesarios para la tarea solicitada.# Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[codz]
 *$py.class
